@@ -1,0 +1,10 @@
+all:
+  vars:
+    banner: Welcome to Vinu Devops Lab
+  children:
+    servers:
+      hosts:
+        ansible-managed-host-1:
+          ansible_host: 192.168.2.10
+        ansible-managed-host-2:
+          ansible_host: 192.168.2.11
